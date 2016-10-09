@@ -1,4 +1,4 @@
-ct GradesContract {
+contract GradesContract {
     address public teacher;
     
     mapping (address => Grades) studentGrades;
