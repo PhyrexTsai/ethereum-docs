@@ -76,3 +76,32 @@ Then run
 ```
 geth --networkid 16888 --port 30303 --nodiscover --maxpeers 25 --nat "any" --rpc --rpccorsdomain "*" --rpcapi "eth,net,web3,debug" --mine --minerthreads 2 --autodag
 ```
+
+### geth 
+
+list accounts
+
+```
+geth account list
+```
+
+### Command Line
+
+Using command line
+
+```
+geth attach
+```
+
+miner control
+
+```
+miner.start(8)
+miner.stop()
+```
+
+account balance
+
+```
+web3.fromWei(eth.getBalance(eth.coinbase), "ether")
+```
