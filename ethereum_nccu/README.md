@@ -105,3 +105,25 @@ account balance
 ```
 web3.fromWei(eth.getBalance(eth.coinbase), "ether")
 ```
+
+### Build via Ethereum Wallet
+
+#### Deploy
+
+`CONTRACTS` > `DEPLOY NEW CONTRACT` 
+
+Write contract code on `SOLIDITY CONTRACT SOURCE CODE`  
+Then choose `DEPLOY`
+
+#### Watch
+
+`CONTRACTS` > `WATCH CONTRACT`
+
+`Select function` via `WRITE TO CONTRACT`
+
+### Contract example
+
+#### Hello
+
+#### Grades Contract
+
